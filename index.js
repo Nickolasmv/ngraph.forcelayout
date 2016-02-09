@@ -1,5 +1,5 @@
 module.exports = createLayout;
-module.exports.simulator = require('ngraph.physics.simulator');
+module.exports.simulator = require('ngraph.physics.simulator.v2');
 
 var eventify = require('ngraph.events');
 

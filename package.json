@@ -1,6 +1,6 @@
 {
   "name": "ngraph.forcelayout.v2",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Force directed graph drawing layout",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "ngraph.events": "0.0.3",
-    "ngraph.physics.simulator": "0.0.12"
+    "ngraph.physics.simulator.v2": "0.0.13"
   }
 }
