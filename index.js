@@ -17,7 +17,7 @@ function createLayout(graph, physicsSettings) {
     throw new Error('Graph structure cannot be undefined');
   }
 
-  var createSimulator = require('ngraph.physics.simulator');
+  var createSimulator = require('ngraph.physics.simulator.v2');
   var physicsSimulator = createSimulator(physicsSettings);
 
   var nodeBodies = typeof Object.create === 'function' ? Object.create(null) : {};
