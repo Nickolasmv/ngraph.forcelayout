@@ -1,8 +1,6 @@
 module.exports = createLayout;
 module.exports.simulator = require('ngraph.physics.simulator.v2');
 
-var eventify = require('ngraph.events');
-
 /**
  * Creates force based layout for a given graph.
  * @param {ngraph.graph} graph which needs to be laid out
@@ -10,7 +8,11 @@ var eventify = require('ngraph.events');
  * for physics simulator you can pass your own settings here. If it's not passed
  * a default one will be created.
  */
+
+
 function createLayout(graph, physicsSettings) {
+  var eventify = require('ngraph.events');
+
   if (!graph) {
     throw new Error('Graph structure cannot be undefined');
   }
